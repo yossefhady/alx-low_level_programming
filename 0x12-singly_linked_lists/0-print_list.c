@@ -8,7 +8,7 @@
  * Return: The number of nodes in node.
  */
 
-int print_list(const list_t *node)
+size_t print_list(const list_t *node)
 {
 	int nodes = 0;
 
