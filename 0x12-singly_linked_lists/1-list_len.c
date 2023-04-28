@@ -4,19 +4,18 @@
 
 /**
   * list_len - Show the number of elements of a list
-  * @h: A linked list
-  *
+  * @node: A linked list
   * Return: The number of elements of a list
   */
-size_t list_len(const list_t *h)
+size_t list_len(const list_t *node)
 {
-	size_t count = 0;
+	int  counter = 0;
 
-	while (h)
+	while (node)
 	{
-		h = h->next;
-		count++;
+		node = node->next;
+		counter++;
 	}
 
-	return (count);
+	return (counter);
 }
