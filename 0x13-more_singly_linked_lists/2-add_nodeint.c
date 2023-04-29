@@ -4,12 +4,12 @@
 #include "lists.h"
 
 /**
- * listint_len - return The number of nodes in the list.
- * @n: The listint_t list.
- * @head:
- *
- * Return: The number of nodes in the list.
- */
+  * add_node - Adds a new node at the beginning of a list
+  * @head: The original linked list
+  * @n: The intger to add to the node
+  *
+  * Return: The address of the new list or NULL if it failed
+  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
