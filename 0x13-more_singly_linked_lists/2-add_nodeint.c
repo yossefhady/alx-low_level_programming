@@ -7,8 +7,8 @@
   * add_node - Adds a new node at the beginning of a list
   * @head: The original linked list
   * @n: The intger to add to the node
-  *
-  * Return: The address of the new list or NULL if it failed
+  * Return: If the function fails - NULL.
+  *         Otherwise - the address of the new element.
   */
 
 listint_t *add_nodeint(listint_t **head, const int n)
