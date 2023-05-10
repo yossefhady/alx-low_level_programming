@@ -4,7 +4,8 @@
 #include "lists.h"
 
 /*
- * listint_len - return The number of nodes in the list.
+ * listint_len - gives The number of nodes in the list.
+ *
  * @h: The listint_t list.
  *
  * Return: The number of nodes in the list.
